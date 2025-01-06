@@ -1,4 +1,4 @@
-/* General reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body, html {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Light Theme Styles */
+
 :root {
     --bg-light: #8b8cb8;
     --bg-dark: #333;
@@ -34,7 +34,7 @@ body, html {
     --transition-time: 0.3s;
 }
 
-/* Body and general styles */
+
 body {
     background-color: var(--bg-light);
     color: var(--text-light);
@@ -92,7 +92,7 @@ button:hover {
     color: #555;
 }
 
-/* Dark Theme Styles */
+
 body.dark-theme {
     background-color: var(--bg-dark);
     color: var(--text-dark);
@@ -116,7 +116,7 @@ body.dark-theme button:hover {
     background-color: var(--button-hover-dark);
 }
 
-/* Light/Dark theme toggle button */
+
 .theme-btn {
     background-color: #28a745;
 }
@@ -125,7 +125,7 @@ body.dark-theme button:hover {
     background-color: #218838;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     margin-top: 30px;
@@ -137,12 +137,12 @@ footer p {
     margin: 0;
 }
 
-/* Dark theme footer text */
+
 body.dark-theme footer p {
     color: var(--text-dark);
 }
 
-/* Responsive Styles */
+
 @media (max-width: 600px) {
     body {
         padding: 10px;
